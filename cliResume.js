@@ -24,7 +24,7 @@ function displayList() {
       } else if (answer.selection == "Projects") {
         cp.execSync("open -a 'google chrome' https://github.com/namansingh27");
         displayNext();
-      } else if (answer.selection == "Contact Me") {
+      } else if (answer.selection == "Contact") {
         cp.execSync(
           "open -a 'google chrome' https://www.linkedin.com/in/naman-singh-9aa209209/"
         );
